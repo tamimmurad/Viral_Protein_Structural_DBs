@@ -5,11 +5,11 @@ This repository contains the following:
 - Method of acquiring and curating PDB and AlphaFold existing structures.
 - Building a searchable Foldseek Structural database for Viral Proteins. The proteins in the database are cluster representatives of previously obtained cluster representatives of viral proteins. The structures are as follows:
 
-    1- 1,014 PDB determined protein structures. 
+    1) 1,014 PDB determined protein structures. 
     
-    2- 30 Alphafold predicted structures (already in AFDB)
+    2) 30 Alphafold predicted structures (already in AFDB)
     
-    3- 8,818 predicted structures with Alphafold done by our team.
+    3) 8,818 predicted structures with Alphafold done by our team.
     
 A total of 9,826 structures are used to build a searchable foldseek Viral Protein Structural Database. 
 
@@ -43,11 +43,11 @@ For the AFDB structures, below are the steps:
 
 3 structural databases were built to compare results of the searches as follow:
 
-    1-PDB_downloaded: This is available PDB database with foldseek.
+    1) PDB_downloaded: This is available PDB database with foldseek.
     
-    2-AF_viralDB_inhouse: This comprises of the 9,826 top viral protein clusters as above.
+    2) AF_viralDB_inhouse: This comprises of the 9,826 top viral protein clusters as above.
     
-    3-ESM_viralDB_inhouse: 8,899 comprises both PDB and Alfaphold available structures in addition to 7855 ESM folded structures. These are top cluster reps structures folded with ESM using the curl command. Note that the curl command only accepts sequences less than 400 aa in length.
+    3) ESM_viralDB_inhouse: 8,899 comprises both PDB and Alfaphold available structures in addition to 7855 ESM folded structures. These are top cluster reps structures folded with ESM using the curl command. Note that the curl command only accepts sequences less than 400 aa in length.
 
 Details on DB creation can be found in https://github.com/steineggerlab/foldseek#databases
 
