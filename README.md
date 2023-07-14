@@ -4,6 +4,7 @@
 This repository contains the following:
 - Method of acquiring and curating PDB and AlphaFold existing structures.
 - Building a searchable Foldseek Structural database for Viral Proteins. The proteins in the database are cluster representatives of previously obtained cluster representatives of viral proteins. The structures are as follows:
+
     1- 1,014 PDB determined protein structures. 
     
     2- 30 Alphafold predicted structures (already in AFDB)
