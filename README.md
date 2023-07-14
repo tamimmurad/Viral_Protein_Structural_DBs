@@ -42,11 +42,11 @@ For the AFDB structures, below are the steps:
 
 3 structural databases were built to compare results of the searches as follow:
 
-    1)PDB_downloaded: This is available PDB database with foldseek.
+    1-PDB_downloaded: This is available PDB database with foldseek.
     
-    2)AF_viralDB_inhouse: This comprises of the 9,826 top viral protein clusters as above.
+    2-AF_viralDB_inhouse: This comprises of the 9,826 top viral protein clusters as above.
     
-    3)ESM_viralDB_inhouse: 8,899 comprises both PDB and Alfaphold available structures in addition to 7855 ESM folded structures. These are top cluster reps structures folded with ESM using the curl command. Note that the curl command only accepts sequences less than 400 aa in length.
+    3-ESM_viralDB_inhouse: 8,899 comprises both PDB and Alfaphold available structures in addition to 7855 ESM folded structures. These are top cluster reps structures folded with ESM using the curl command. Note that the curl command only accepts sequences less than 400 aa in length.
 
 Details on DB creation can be found in https://github.com/steineggerlab/foldseek#databases
 
@@ -54,6 +54,9 @@ Details on DB creation can be found in https://github.com/steineggerlab/foldseek
 
 3 viral protein structures were downloaded from PDB. One is computer structure model and the other two are experimental structures.
 They are used as queries against the 3 databases with foldseek. Below are links to the chosen proteins and the results can be found in the results folder.
+
 https://www.rcsb.org/structure/MA_MAASFVASFVG156
+
 https://www.rcsb.org/structure/5MU4
+
 https://www.rcsb.org/structure/5H3A
