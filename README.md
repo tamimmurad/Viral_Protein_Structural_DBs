@@ -41,7 +41,7 @@ For the AFDB structures, below are the steps:
     
 ### Databases 
 
-3 structural databases were built to compare results of the searches as follow:
+Three structural databases were built to compare results of the searches as follow:
 
     - PDB_downloaded: This is available PDB database with foldseek.
     
